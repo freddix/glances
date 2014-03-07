@@ -1,7 +1,7 @@
 Summary:	Cross-platform curses-based monitoring tool written in Python
 Name:		glances
 Version:	1.7.4
-Release:	1
+Release:	2
 License:	LGPL v3
 Group:		Applications
 Source0:	https://github.com/nicolargo/glances/archive/v%{version}.tar.gz
@@ -9,6 +9,7 @@ Source0:	https://github.com/nicolargo/glances/archive/v%{version}.tar.gz
 URL:		https://github.com/nicolargo/glances
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
+BuildArch:	noarch
 %pyrequires_eq	python-modules
 Requires:	python-psutil
 Requires:	python-setuptools
